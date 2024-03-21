@@ -1,0 +1,15 @@
+ create table book(
+NAME  VARCHAR2(50),
+ NO_OF_SEATS  NUMBER(20),
+ TYPE VARCHAR2(20));
+
+create table movie(
+ NAME     VARCHAR2(100),
+ NO_OF_SEATS  NUMBER(20),
+ TYPE       VARCHAR2(20),
+ AMOUNT  NUMBER(20));
+create table amount(
+ BANK                                               VARCHAR2(20),
+ CUSTOMER_NAME                                      VARCHAR2(20),
+ AC_NO                                              VARCHAR2(20),
+ PASSWORD                                           VARCHAR2(20));
